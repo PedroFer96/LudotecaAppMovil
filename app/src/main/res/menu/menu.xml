@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Login"
+        android:title="Login"
+        android:orderInCategory="1"/>
+    <item
+        android:id="@+id/Inicio"
+        android:title="Inicio"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/Perfil"
+        android:title="Perfil"
+        android:orderInCategory="3" />
+    <item
+        android:id="@+id/Mapa"
+        android:title="Mapa"
+        android:orderInCategory="4" />
+    <item
+        android:id="@+id/ListaLudotecas"
+        android:title="Lista de Ludotecas"
+        android:orderInCategory="5" />
+    <item
+        android:id="@+id/Desconectar"
+        android:title="Desconectar"
+        android:orderInCategory="6" />
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewLudoteca"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="5dp"
+    android:clickable="true"
+    android:focusable="true">
+    <!--android:foreground="?android:attr/selectableItemBackground" -->
+
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/borderlayout">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginLeft="7dp">
+
+                <TextView
+                    android:id="@+id/textViewLudotecaNombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ludoteca"
+                    android:maxLines="1"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textViewLudotecaDireccion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="direccion"
+                        android:textColor="#5A7475"
+                        android:textSize="15dp"
+                        android:maxLines="1"
+                        />
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:id="@+id/textViewLudotecaTelefono"
+                        android:maxLines="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telfono"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/buttonVerLudoteca"
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+
+            android:layout_height="wrap_content"
+            android:text="Ver"/>
+        
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
